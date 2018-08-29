@@ -1,0 +1,177 @@
+
+body{
+    background-image: url(https://30eda976422649e867fd-7bd6c75aa0f267903330ee77f84d330a.ssl.cf1.rackcdn.com/food_photography_42.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+.topnav{
+    background-color: #60BDBB;
+    overflow: hidden;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+    font-family: "Avenir Next";
+ }
+
+.topnav a:hover{
+    background-color: white;
+    color: #60BDBB;
+    text-decoration: none;
+}
+
+#icon{
+    float: right;
+    height: 50px;
+    width: 90px;
+    padding: 4px;
+    margin: 4px;
+    align-items: center;
+}
+
+h1{
+    font-family: "Avenir Next";
+    color: #60BDBB;
+    letter-spacing: 10PX;
+    text-align: center;
+    padding: 20px;
+    border-radius: 4px;
+    margin: auto;
+}
+
+
+#header{
+    border: 1px solid white;
+    border-radius: 4px;
+    background-image: url(marble2.png); 
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 18px; 
+    resize: vertical;
+    font-family: "Avenir Next";
+}
+
+label{
+    color: white;
+    font-size: 25px;
+    font-family: "Avenir Next";
+    letter-spacing: 10px;
+}
+
+input[type=submit]{
+    background-color: white;
+    color: #60BDBB;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Avenir Next";
+}
+
+input[type=submit]:hover{
+    background-color: #00FF39;
+    color: white;
+    font-family: "Avenir Next";
+}
+
+.container {
+    margin-top: 60px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    width: 100%;
+    border: solid white;
+    border-radius: 14px;
+    background-color: #60BDBB;
+    padding: 20px;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 2; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 75%; 
+    overflow: auto;
+    margin-top: 60px;
+}
+.modal-content {
+    margin: 5% auto;
+    padding: 20px;
+    border: solid white;
+    width: 75%; 
+    height: 75%;
+    z-index: 3;
+    color: white;
+    background-color: #60BDBB;
+    font-size: 50px;
+    font-family: "Avenir Next";
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+#modalText{
+    color: white;
+    text-align: center;
+    font-size: 100%;
+    font-family: "Avenir Next";
+}
+
+.close {
+    color: #60BDBB;
+    float: right;
+    font-size: 60px;
+    font-weight: bold;
+    background-image: url(marble2.png);
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media (max-width: 640px){
+  #icon{
+    display: none;
+  }
+
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+
+  .modal{
+    margin-top: 250px;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+  }
+
+  .modal-content{
+    width: 100%;
+    height: 50%
+  }  
+
+  #modalText{
+    font-size: 30px;
+  }
+}
+

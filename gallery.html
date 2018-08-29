@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>P A S T A G R A M</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="gallery.css">
+</head>
+<body>
+
+	<div class="topnav">	
+	  <div class="links">
+	  	<a id="home" href="home.html">H O M E </a>
+	 	<a id="menu" href="menu.html">M E N U </a>
+	  	<a id="gallery" href="gallery.html"> G A L L E R Y</a>
+	  	<a id="contact" href="contact.html">C O N T A C T</a>
+	  </div>
+	  <img id="icon" src="icon4.png">
+	</div>
+	
+
+	<div class="container">
+		<h1>GALLERY</h1>
+		<div class="slideshow-container">
+
+		  <div class="mySlides fade">
+		    <div class="numbertext">1 / 6</div>
+		    <img src="gallery1.jpg" style="width:100%">
+		  </div>
+
+		  <div class="mySlides fade">
+		    <div class="numbertext">2 / 6</div>
+		    <img src="gallery2.jpg" style="width:100%">
+		  </div>
+
+		  <div class="mySlides fade">
+		    <div class="numbertext">3 / 6</div>
+		    <img src="gallery3.jpg" style="width:100%">
+		  </div>
+
+		   <div class="mySlides fade">
+		    <div class="numbertext">4 / 6</div>
+		    <img src="gallery4.jpg" style="width:100%">
+		  </div>
+
+		   <div class="mySlides fade">
+		    <div class="numbertext">5 / 6</div>
+		    <img src="gallery5.jpg" style="width:100%">
+		  </div>
+
+		   <div class="mySlides fade">
+		    <div class="numbertext">6 / 6</div>
+		    <img src="gallery6.jpg" style="width:100%">
+		  </div>
+
+		  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<br>
+
+		<div style="text-align:center">
+		  <span class="dot" onclick="currentSlide(1)"></span> 
+		  <span class="dot" onclick="currentSlide(2)"></span> 
+		  <span class="dot" onclick="currentSlide(3)"></span> 
+		  <span class="dot" onclick="currentSlide(4)"></span> 
+		  <span class="dot" onclick="currentSlide(5)"></span> 
+		  <span class="dot" onclick="currentSlide(6)"></span> 
+		</div>
+	</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="gallery.js"></script>
+</body>
+</html>
