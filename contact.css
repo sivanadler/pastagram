@@ -69,7 +69,9 @@ label{
     color: white;
     font-size: 25px;
     font-family: "Avenir Next";
-    letter-spacing: 10px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 input[type=submit]{
